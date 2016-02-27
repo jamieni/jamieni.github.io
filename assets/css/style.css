@@ -1,0 +1,95 @@
+/* You may use the following selectors, but it's not required. */
+
+body {
+	display: -webkit-flex;  
+    -webkit-flex-wrap: wrap;  
+    display: flex;   
+    flex-wrap: wrap;
+    background-color: #E6EEEE;
+}
+#container {
+    width: 100%;
+}
+
+.top {
+	position: relative;
+	background: url(../img/paint_strips.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+    background-size: cover;
+    height:700px;
+    width: auto;
+}
+.header{
+	margin-top:-450px;
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	text-align: center;
+	font-size: 150;
+}
+
+.subheader{
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	margin:auto;
+	text-align: center;
+	font-size: 20;
+	font-style: italic;
+	color:#c0cbcc;
+}
+
+.description {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	margin-top:300px;
+	margin-left: 200px;
+	margin-right: 200px; 
+	text-align: center;
+	padding:20px 20px;
+	line-height: 1.5;
+}
+
+a {
+	padding:15px;
+}
+
+#resume {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	text-align: center;
+	color: black;
+	margin-left: 330px;
+	margin-right: 330px;
+	padding:20px 20px;
+	border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px; 
+    text-decoration: none;
+    word-wrap:break-word;
+}
+#contact {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding:10px 10px;
+	line-height: 1.5;
+}
+
+.contact-title {
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	text-align: center;
+	font-size:30;
+	margin-bottom: 10px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.contact-content {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	margin:auto;
+	text-align: center;
+}
