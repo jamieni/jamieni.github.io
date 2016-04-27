@@ -34,6 +34,7 @@
 #content {
     background: white;
     height: 400px;
+    /*height:100%;*/
 }
 
 h1 {
@@ -68,13 +69,23 @@ li {
     line-height: 30px;
 }
 
+.hello {
+    margin-left: 12%;
+    color: green;
+    font-size: 45;
+    margin-top: 0px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
 .description {
     margin-left: 10%;
     padding: 20px 35px;
     position: relative;
     line-height: 1.5;
     float:left;
-    width:65%;
+    width:60%;
 }
 body {
     font-family: Roboto;
@@ -108,10 +119,11 @@ div {
 } 
 
 .resume {
+    position: relative;
     float: right;
     width: 15%;
     margin-right: 100px;
-    margin-top:7%;
+    margin-top:1%;
     font-family: 'Poiret One';
     font-weight: bold;
     font-size: 20px;
@@ -121,10 +133,12 @@ div {
 
 #section2 {
     background: white;
-    height: 500px;
+    /*height: 500px;*/
+    height:100%;
 }
 
 .skills {
+    position: relative;
     background-color: white;
     margin-left: 13%;
     float:left;
@@ -132,6 +146,7 @@ div {
 }
 
 .coursework {
+    position: relative;
     background-color: white;
     float:right;
     width: 50%;
@@ -139,7 +154,7 @@ div {
 
 #contact {
     background-color: white;
-    height: 200px;
+    height: 250px;
 }
 
 #contact2 {
@@ -150,6 +165,7 @@ div {
     margin-left: 3%;
     line-height: 25px;
     font-family: 'Raleway', sans-serif;
+    text-decoration: 
 }
 
 h4 {
@@ -164,14 +180,10 @@ h4 {
     padding-right: 30px;
 }
 
-.links:hover {
-    -webkit-transform:scale(1.25);
-}
 
 #photo {
     background-color: white;
-    height:635px;
-    
+    height:100%;
 }
 
 #photo_title {
@@ -181,4 +193,9 @@ h4 {
 
 #cp_widget_e2d98f35-98e5-4412-bcb9-23c3f2dbf567{
   margin-left: 300px;
+}
+
+#arrow {
+    margin-left: 550px;
+    margin-top: -110px;
 }
