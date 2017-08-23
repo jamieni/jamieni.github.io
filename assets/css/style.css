@@ -1,0 +1,200 @@
+.parallax {
+    position: fixed;
+}
+
+.section{
+    position: relative;
+    top: 700px;
+}
+
+/* other styles below */
+.parallax {
+    /* other styling */
+    height: 100%;
+    width: 100%;
+    background: url(../img/green-2.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: 100%;
+}
+
+ .container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    background: white;
+    height: 400px;
+    /*height:100%;*/
+}
+
+h1 {
+    color: green;
+    font-size: 45;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+}
+h2 {
+    color:green;
+    font-size:30;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+h3 {
+    color:#388E3C;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+    font-size: 22;
+}
+
+li {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.hello {
+    margin-left: 12%;
+    color: green;
+    font-size: 45;
+    margin-top: 0px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.description {
+    margin-left: 10%;
+    padding: 20px 35px;
+    position: relative;
+    line-height: 1.5;
+    float:left;
+    width:60%;
+}
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Poiret One', cursive;
+    font-size: 12vw;
+    font-weight: bolder;
+}
+.subheader {
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+    font-family: 'Poiret One', cursive;
+    font-size: 3vw;
+    font-weight: bolder;
+} 
+
+.resume {
+    position: relative;
+    float: right;
+    width: 15%;
+    margin-right: 100px;
+    margin-top:1%;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:green;
+}
+
+#section2 {
+    background: white;
+    height:550px;
+}
+
+.skills {
+    position: relative;
+    background-color: white;
+    margin-left: 13%;
+    float:left;
+    width:30%;
+}
+
+.coursework {
+    position: relative;
+    background-color: white;
+    float:right;
+    width: 50%;
+}
+
+#contact {
+    background-color: white;
+    height: 300px;
+}
+
+#contact2 {
+    margin-left:40%;
+}
+
+.contact-content {
+    margin-left: 3%;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: 
+}
+
+h4 {
+    display: inline-block;
+    margin: 0px;
+}
+
+.links {
+    display: inline-block;
+    margin-left: -30px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+#photo {
+    background-color: white;
+    height:100%;
+}
+
+#photo_title {
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
+
+#cp_widget_e2d98f35-98e5-4412-bcb9-23c3f2dbf567{
+  margin-left: 300px;
+}
+
+#arrow {
+    margin-left: 550px;
+    margin-top: -110px;
+}
